@@ -41,6 +41,13 @@
     font-weight: bold;
 
 }
+.nav a:hover{
+    color: #fff;
+    text-shadow: -10px -10px 10px #fff;
+    cursor: grabbing;
+    text-decoration: underline;
+
+}
 
 .header {
     display: flex;
@@ -107,8 +114,8 @@
     background-color: rgba(0, 0, 0, 0.922);
     height: 620px;
     border-radius: 20px;
-    box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.91);
-    border: 2px solid rgba(255, 255, 255, 0.974);
+    box-shadow: 5px -5px 10px rgb(199, 145, 6);
+    border: 2px solid rgb(199, 145, 6);
     align-content: center;
 }
 
@@ -182,8 +189,8 @@
     background-color: rgba(0, 0, 0, 0.922);
     height: 620px;
     border-radius: 20px;
-    box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.91);
-    border: 2px solid rgba(255, 255, 255, 0.974);
+     box-shadow: 5px -5px 10px rgb(199, 145, 6);
+     border: 2px solid rgb(199, 145, 6);
     align-content: center;
 }
 
@@ -252,8 +259,8 @@
     background-color: rgba(0, 0, 0, 0.922);
     height: 620px;
     border-radius: 20px;
-    box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.91);
-    border: 2px solid rgba(255, 255, 255, 0.974);
+     box-shadow: 5px -5px 10px rgb(199, 145, 6);
+     border: 2px solid rgb(199, 145, 6);
     align-content: center;
 }
 
@@ -322,8 +329,8 @@
     background-color: rgba(0, 0, 0, 0.922);
     height: 620px;
     border-radius: 20px;
-    box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.91);
-    border: 2px solid rgba(255, 255, 255, 0.974);
+    box-shadow: 5px -5px 10px rgb(199, 145, 6);
+    border: 2px solid rgb(199, 145, 6);
     align-content: center;
 }
 
@@ -394,17 +401,14 @@
 }
 
 .display img {
-    width: 90%;
+    width: 80%;
     height: 540px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
     align-content: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.629);
-    border-radius: 10px;
-
-
+    box-shadow: -10px -10px 10px #ffffffe7;
 }
 
 .displaytext h4 {
@@ -463,7 +467,7 @@
     justify-self: center;
     color: rgb(199, 145, 6);
     border: 3px solid rgb(199, 145, 6);
-    box-shadow: 5px 5px 10px rgb(199, 145, 6);
+    box-shadow: -5px 5px 10px rgb(199, 145, 6);
     border-radius: 10px;
 }
 
@@ -538,7 +542,7 @@
 
 .footer-column a {
     text-decoration: none;
-    color: rgb(199, 145, 6);
+    color: #fff;
 }
 
 .bottom {
