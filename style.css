@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Gucci Sans Pro", Helvetica, Arial, sans-serif;
-    
-}
-body{
-    
+
 }
 
 .navbar {
@@ -13,7 +10,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: black;
-
+    padding: 0 10px;
 
 }
 
@@ -49,14 +46,10 @@ body{
     display: flex;
     align-items: center;
     margin: 40px 50px;
-
-
 }
 
 .head {
     width: 50%;
-
-
 }
 
 .head img {
@@ -64,7 +57,6 @@ body{
     height: 500px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.629);
-
 }
 
 .headtext {
@@ -81,13 +73,13 @@ body{
 .headtext h2 {
     font-size: 40px;
     margin-bottom: 10px;
-   
+
 }
 
 .headtext p {
     font-size: 20px;
-     color: rgb(160, 116, 5);
-     
+    color: rgb(160, 116, 5);
+
 
 }
 
@@ -113,7 +105,7 @@ body{
 .frgnc {
     width: 350px;
     background-color: rgba(0, 0, 0, 0.922);
-    height: 600px;
+    height: 620px;
     border-radius: 20px;
     box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.91);
     border: 2px solid rgba(255, 255, 255, 0.974);
@@ -123,11 +115,9 @@ body{
 .frgnc img {
     width: 300px;
     height: 350px;
-    border-radius: 20px;
-    margin: 0px 25px;
-
-
-
+    border-radius: 10px;
+    margin: 0 25px;
+    margin-top: 20px;
 }
 
 .frgnc h1 {
@@ -190,7 +180,7 @@ body{
 .purse {
     width: 350px;
     background-color: rgba(0, 0, 0, 0.922);
-    height: 600px;
+    height: 620px;
     border-radius: 20px;
     box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.91);
     border: 2px solid rgba(255, 255, 255, 0.974);
@@ -200,30 +190,36 @@ body{
 .purse img {
     width: 300px;
     height: 350px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0px 25px;
+    margin-top: 20px;
 }
+
 .purse h1 {
     font-size: 30px;
     text-align: center;
     color: white;
 }
+
 .purse p {
     font-size: 16px;
     text-align: center;
     color: white;
 }
+
 .purse h3 {
     font-size: 26px;
     color: white;
     text-align: center;
     padding-top: 30px;
 }
+
 .purse h3 span {
     font-size: 26px;
     color: rgb(199, 145, 6);
 
 }
+
 .purse h3 button {
     background-color: rgb(199, 145, 6);
     color: white;
@@ -243,7 +239,8 @@ body{
     border: 3px solid rgb(199, 145, 6);
     box-shadow: 5px 5px 10px rgb(199, 145, 6);
 }
-.backpack{
+
+.backpack {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -253,7 +250,7 @@ body{
 .bpacks {
     width: 350px;
     background-color: rgba(0, 0, 0, 0.922);
-    height: 600px;
+    height: 620px;
     border-radius: 20px;
     box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.91);
     border: 2px solid rgba(255, 255, 255, 0.974);
@@ -263,30 +260,36 @@ body{
 .bpacks img {
     width: 300px;
     height: 350px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0px 25px;
+    margin-top: 20px;
 }
+
 .bpacks h1 {
     font-size: 30px;
     text-align: center;
     color: white;
 }
+
 .bpacks p {
     font-size: 16px;
     text-align: center;
     color: white;
 }
+
 .bpacks h3 {
     font-size: 26px;
     color: white;
     text-align: center;
     padding-top: 30px;
 }
+
 .bpacks h3 span {
     font-size: 26px;
     color: rgb(199, 145, 6);
 
 }
+
 .bpacks h3 button {
     background-color: rgb(199, 145, 6);
     color: white;
@@ -306,7 +309,8 @@ body{
     border: 3px solid rgb(199, 145, 6);
     box-shadow: 5px 5px 10px rgb(199, 145, 6);
 }
-.sandals{
+
+.sandals {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -316,7 +320,7 @@ body{
 .pics {
     width: 350px;
     background-color: rgba(0, 0, 0, 0.922);
-    height: 600px;
+    height: 620px;
     border-radius: 20px;
     box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.91);
     border: 2px solid rgba(255, 255, 255, 0.974);
@@ -326,30 +330,36 @@ body{
 .pics img {
     width: 300px;
     height: 350px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0px 25px;
+    margin-top: 20px;
 }
+
 .pics h1 {
     font-size: 30px;
     text-align: center;
     color: white;
 }
+
 .pics p {
     font-size: 16px;
     text-align: center;
     color: white;
 }
+
 .pics h3 {
     font-size: 26px;
     color: white;
     text-align: center;
     padding-top: 30px;
 }
+
 .pics h3 span {
     font-size: 26px;
     color: rgb(199, 145, 6);
 
 }
+
 .pics h3 button {
     background-color: rgb(199, 145, 6);
     color: white;
@@ -369,7 +379,8 @@ body{
     border: 3px solid rgb(199, 145, 6);
     box-shadow: 5px 5px 10px rgb(199, 145, 6);
 }
-.display{
+
+.display {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -381,7 +392,8 @@ body{
     box-shadow: 10px 10px 10px black;
     border-radius: 20px;
 }
-.display img{
+
+.display img {
     width: 90%;
     height: 540px;
     margin-top: 30px;
@@ -392,9 +404,10 @@ body{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.629);
     border-radius: 10px;
 
-    
+
 }
-.displaytext h4{
+
+.displaytext h4 {
     text-align: center;
     font-size: 60px;
     font-weight: bold;
@@ -404,20 +417,23 @@ body{
     text-decoration: underline;
 
 }
-.slides{
+
+.slides {
     display: flex;
-     margin-top: 20px;
-     height: 600px;
+    margin-top: 20px;
+    height: 600px;
 }
-.left{
+
+.left {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
 }
-.slides1{
-    width:300px ;
+
+.slides1 {
+    width: 300px;
     height: 150px;
     background-color: rgb(199, 145, 6);
     border-radius: 20px;
@@ -426,40 +442,54 @@ body{
     color: rgba(0, 0, 0, 0.909);
     align-content: center;
 }
-.slides1 h1{
+
+.slides1 h1 {
     font-size: 26px;
     font-weight: bold;
 }
-.right{
+
+.right {
     width: 50%;
 }
-.right img{
+
+.right img {
     width: 100%;
 }
-.letter{
+
+.letter {
     width: 90%;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.909);
     justify-self: center;
-    color:  rgb(199, 145, 6);
+    color: rgb(199, 145, 6);
     border: 3px solid rgb(199, 145, 6);
     box-shadow: 5px 5px 10px rgb(199, 145, 6);
     border-radius: 10px;
 }
-.letter h1{
+
+.letter h1 {
     text-align: center;
     padding-top: 20px;
     font-size: 35px;
 }
-.letter input{
+
+.letter input {
     width: 80%;
     height: 40px;
     margin-left: 80px;
     box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.656);
     border-radius: 10PX;
+    font-size: 18px;
 }
-.letter button{
-     background-color: rgb(199, 145, 6);
+
+.letter input:focus {
+    background-color: rgb(199, 145, 6);
+    color: #fff;
+    font-size: 18px;
+}
+
+.letter button {
+    background-color: rgb(199, 145, 6);
     color: white;
     width: 120px;
     height: 40px;
@@ -470,10 +500,54 @@ body{
     border-radius: 10PX;
 
 }
-.letter button:hover{
-     background-color: #fff;
+
+.letter button:hover {
+    background-color: #fff;
     color: black;
     border: 3px solid rgb(199, 145, 6);
     box-shadow: 5px 5px 10px rgb(199, 145, 6)
+}
 
+.footer-container {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.909);
+    color: rgb(199, 145, 6);
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 10px -5px 10px rgba(0, 0, 0, 0.629);
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: rgb(199, 145, 6);
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #fff;
 }
