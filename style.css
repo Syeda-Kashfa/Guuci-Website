@@ -1,8 +1,11 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/static/Roboto-Black.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: "Gucci Sans Pro", Helvetica, Arial, sans-serif;
-
 }
 
 .navbar {
