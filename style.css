@@ -131,6 +131,10 @@
     box-shadow: 5px -5px 10px rgb(199, 145, 6);
     border: 2px solid rgb(199, 145, 6);
     align-content: center;
+    animation: cards 5s  linear ;
+}
+@keyframes cards{
+    to {transform: rotate(180deg);}
 }
 
 .frgnc img {
@@ -206,7 +210,13 @@
     box-shadow: 5px -5px 10px rgb(199, 145, 6);
     border: 2px solid rgb(199, 145, 6);
     align-content: center;
+     animation: card 5s  linear ;
 }
+@keyframes card{
+
+    to {transform: rotateX(180deg)}
+}
+
 
 .purse img {
     width: 300px;
@@ -276,7 +286,13 @@
     box-shadow: 5px -5px 10px rgb(199, 145, 6);
     border: 2px solid rgb(199, 145, 6);
     align-content: center;
+    animation: card 5s  linear ;
 }
+@keyframes card{
+
+    to {transform: rotateY(180deg)}
+}
+
 
 .bpacks img {
     width: 300px;
@@ -346,6 +362,10 @@
     box-shadow: 5px -5px 10px rgb(199, 145, 6);
     border: 2px solid rgb(199, 145, 6);
     align-content: center;
+     animation: card 5s  alternate ;
+}
+@keyframes card{
+    from { transform: rotateZ(45deg)}
 }
 
 .pics img {
