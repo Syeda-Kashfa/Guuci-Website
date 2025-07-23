@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -19,6 +20,8 @@
     height: 70px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.629);
     z-index: 1;
+    padding-left: 20px;
+
 
 }
 
@@ -40,6 +43,7 @@
 .nav {
     display: flex;
     gap: 40px;
+    padding-right: 60px;
 }
 
 .nav a {
@@ -366,6 +370,9 @@
 }
 @keyframes card{
     from { transform: rotateZ(45deg)}
+      0%   {background-color: black; }
+    50%  {background-color:rgb(175, 13, 13); }
+  100% {background-color: rgb(212, 153, 4);} 
 }
 
 .pics img {
@@ -637,14 +644,14 @@
     border-radius: 14px;
     transition: all ease 0.8s;
     cursor: pointer;
+    
 }
 
 .promopic img:hover {
     filter: saturate(100%);
     width: 350px;
-
+  
 }
-
 .sicon {
     display: flex;
 }
